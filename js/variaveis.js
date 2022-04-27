@@ -36,3 +36,9 @@ let avanade = [
 
 ]
 console.log(avanade[1].cidade);
+
+var a
+
+let b
+
+const c = 5;
