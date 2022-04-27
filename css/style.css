@@ -29,6 +29,7 @@ body {
 
 .page-subtitle {
     margin-top: 10px;
+    background-color: #000;
 }
 
 img {
@@ -59,3 +60,26 @@ img {
     margin-top: 0.5rem;
     transition: .4s;
 }
+
+#erro {
+    background-color: red;
+    color: #fff;
+}
+
+#catalogo {
+    display: flex;
+    flex-flow: wrap;
+    padding: 1rem;
+}
+
+.retangulo {
+    position: absolute;
+    width: 32%;
+    height: 35%;
+    background-color: #000;
+    z-index: -1;
+    border-radius: 0.5rem;
+    opacity: 0.6;
+    left: 42rem;
+}
+
