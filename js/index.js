@@ -15,3 +15,8 @@ let listaDeTitulos = [
     'Efeito Borboleta',
     'Jogador Nº 1'
 ]
+
+//!DOM - Document Object Model (é o que usaremos para acessar a página html pelo javascript)
+let catalogo = document.querySelector('#catalogo') //querySelector permite que nós peguemos um elemento por id, classe e etc
+let i = 0
+let erro = document.querySelector('#erro')
