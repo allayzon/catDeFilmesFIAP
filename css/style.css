@@ -34,6 +34,8 @@ body {
 
 img {
     max-height: 250px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 1rem #fff;
 }
 
 #filme, #titulo {
@@ -86,4 +88,7 @@ img {
 .filme {
     padding: 1.5rem;
     width: 13rem;
+    background-color: #00000050;
+    margin: 1rem;
+    border-radius: 00.5rem;
 }

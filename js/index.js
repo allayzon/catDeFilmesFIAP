@@ -48,15 +48,18 @@ function cadastrar() {
     }
     document.querySelector('#filme').value = ''
     document.querySelector('#titulo').value = ''
-
+    mostraFilme()
 }
+
+
 
 function mostraFilme() {
     do {
         catalogo.innerHTML += `
-            <div>
-                <img src=${listaDeFilmes[i]} alt=${listaDeTitulos[i]}><figcaption>${listaDeTitulos[i]}
+            <div class="filme">
+                <img src=${listaDeFilmes[i]} alt=${listaDeTitulos[i]}><figcaption>${listaDeTitulos[i]}</figcaption>
             </div>
         `
+        i++
     } while (i < listaDeFilmes.length)
 }
