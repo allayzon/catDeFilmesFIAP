@@ -22,7 +22,7 @@ body {
 }
 
 .page-title {
-    color: rgb(234, 124, 225);
+    color: #DC143C;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
 }
@@ -53,13 +53,14 @@ img {
     background-color: #a71601;
     color: #fff;
     cursor: pointer;
+    width: 10%;
+    height: 7%;
+    text-align: center;
 }
 
 .botao:hover {
     background-color: red;
-    width: 12rem;
-    height: 7rem;
-    margin-top: 0.5rem;
+    border-radius: 15%;
     transition: .4s;
 }
 
@@ -76,13 +77,14 @@ img {
 
 .retangulo {
     position: absolute;
-    width: 32%;
+    width: 33%;
     height: 35%;
     background-color: #000;
     z-index: -1;
     border-radius: 0.5rem;
     opacity: 0.6;
-    left: 42rem;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
 }
 
 .filme {
@@ -92,3 +94,4 @@ img {
     margin: 1rem;
     border-radius: 00.5rem;
 }
+

@@ -39,16 +39,17 @@ function cadastrar() {
     console.log(novoTitulo)
 
     if(listaDeFilmes.includes(novoFilme) || listaDeTitulos.includes(novoTitulo)) {
-        erro.innerHTML = `Filme ${novoFilme} já cadastrado`
+        erro.innerHTML = `Filme ${novoTitulo} já cadastrado`
     } else {
         listaDeFilmes.push(novoFilme)
         listaDeTitulos.push(novoTitulo)
         erro.innerHTML = ''
         //? Vamos chamar uma função para mostrar os filmes
+        mostraFilme()
     }
     document.querySelector('#filme').value = ''
     document.querySelector('#titulo').value = ''
-    mostraFilme()
+    
 }
 
 
