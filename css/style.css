@@ -83,3 +83,8 @@ img {
     left: 42rem;
 }
 
+.filme {
+    border: 2px solid white;
+    padding: 1.5rem;
+    width: 13rem;
+}

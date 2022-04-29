@@ -20,3 +20,11 @@ let listaDeTitulos = [
 let catalogo = document.querySelector('#catalogo') //querySelector permite que nós peguemos um elemento por id, classe e etc
 let i = 0
 let erro = document.querySelector('#erro')
+
+for(i; i < listaDeFilmes.length; i++) {
+    catalogo.innerHTML += `
+    <div class = "filme">
+        <img src=${listaDeFilmes[i]}>
+        <figcaption>${listaDeTitulos[i]}</figcaption>
+    </div>`
+}
